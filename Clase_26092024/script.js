@@ -1,3 +1,9 @@
+/*Ete codigo JavaScript contiene funciones que estandiseñadas para en conjunto
+controlando el comportamiento de los botones y el campo de entrada (display)
+
+
+
+*/
 function appendToDisplay (value){
     document.getElementById('display').value += value;
 }
