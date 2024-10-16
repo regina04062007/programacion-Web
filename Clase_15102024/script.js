@@ -84,8 +84,19 @@ const user = {
 //Console amigos
 
 function estado(user){
-    if(user.activo===true){
-        console.log("Estado activo");
+    if(user.activo==true){
+        alert("Activo");
+    }else{
+        alert(error);
+    }
+    
+};
+estado(user);
+
+function datos(user){
+    let x;
+    for(x=0; x<3; x++){
+        console.log(user[x]);
     }
 }
-add(user);
+datos(user);
