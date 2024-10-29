@@ -7,7 +7,7 @@ array.push("Nuevo valor agregado");
 console.log(array[3]);
 console.log("El nuevo tamaño del array es: "+array.length);
 
-
+*/ 
 //length, push, for
 
 let tabla5=[];
@@ -32,11 +32,5 @@ console.log(array[3]);
 array.slice(2,2)
 console.log(array);
 
-*/ 
 
-let tarea =[];
-const tareaInput=document.getElementById('tareaInput');
-const agregarTareaBotton=document.getElementById('agregarTareaBotton');
-const tareaLista=document.getElementById('tareaLista');
 
- 
